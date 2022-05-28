@@ -18,12 +18,3 @@ h1{
   
 }
 
-html body {
-  background-color: aquamarine;
-}
-
-.size {
-  width: 100vh;
-  height: 100vh;
-  padding: 10vh;
-}

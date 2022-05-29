@@ -1,1 +1,4 @@
-console.log("HELOLOLOLOL");
+let blackList = [];
+let currentPage = window.location.href;
+
+console.log(currentPage);

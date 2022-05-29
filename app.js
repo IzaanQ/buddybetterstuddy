@@ -12,3 +12,4 @@ function pushData()
 }
 
 pushData()
+console.write(currentPage);

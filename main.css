@@ -5,7 +5,7 @@
 
 body {
   display: flex;
-  width: 180vh;
+  width: 150vh;
   height: 35vh;
   background-color: bisque;
 }
@@ -38,7 +38,7 @@ body {
 .logo{
   width: 45vh;
   margin-left: 2vh;
-  margin-top: 2vh;
+  margin-top: 4vh;
 }
 
 .list li {
@@ -49,4 +49,13 @@ body {
 
 .list {
   margin-top: 17%;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #545454;
+}
+
+.back {
+  margin: 80vh;
 }

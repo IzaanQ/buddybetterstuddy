@@ -1,17 +1,14 @@
 var myArr = ["","","",""];
 let currentPage = window.location.href;
 
+document.getElementById("myButton").addEventListener("click", pushData);
+
 function pushData()
 {
     var inputText = document.getElementById("inputText").value;
 
-    for (i = 0; i < myArr.length; i++) {
-        myArr[i] = "inputText";
-    }
-
+    myArr.push(inputText);
+    console.log(myArr);
 }
-document.getElementById("myButton").addEventListener("click", myFunction);
 
-function pushData() {
-  console.log(myArr);
-}
+pushData()

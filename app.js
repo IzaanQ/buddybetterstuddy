@@ -1,4 +1,4 @@
-var myArr = ["","","",""];
+var myArr = [];
 let currentPage = window.location.href;
 
 document.getElementById("myButton").addEventListener("click", pushData);

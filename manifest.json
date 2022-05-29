@@ -9,15 +9,26 @@
   },
 
   "content_scripts": [
-  {
-    "matches": ["https://*/*"],
-    "js": ["app.js"]
-  }
-],
+    {
+      "matches": ["https://*/*"],
+      "js": ["app.js"]
+    }
+  ],
+    "dependencies": {
+    "browserify-fs": "^1.0.0"
+  },
 
   "browser_action": {
     "default_icon": "/images/buddy better studdy final.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab", "tabs", "cookies"],
+
+  "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+
+  "content_scripts": [{
+      "matches": ["https://www.instagram.com/*"],
+      "css": ["styler.css"]
+  }]
+
 }

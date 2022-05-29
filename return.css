@@ -21,7 +21,7 @@ body {
   float: left;
   width: 60%;
   background-color: bisque;
-
+  padding-top: 43vh;
 }
 
 .quote {
@@ -63,4 +63,22 @@ body {
   font-size: 40px;
   margin-left: 35px;
 
+}
+
+.input {
+    margin-left: 8vh;
+    border: none;
+    border-radius: 3vh;
+    height: 10vh;
+    margin-right: 4vh;
+    color: #545454;
+}
+
+.button {
+    border: 10px;
+    border-color: #545454;
+    border-radius: 3vh;
+    color: #545454;
+    background-color: bisque;
+    height: 10vh;
 }

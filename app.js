@@ -10,5 +10,8 @@ function pushData()
     }
 
 }
+document.getElementById("myButton").addEventListener("click", myFunction);
 
-console.log(myArr);
+function pushData() {
+  console.log(myArr);
+}

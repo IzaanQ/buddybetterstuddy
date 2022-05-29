@@ -1,4 +1,14 @@
-let blackList = [];
+var myArr = ["","","",""];
 let currentPage = window.location.href;
 
-console.log(currentPage);
+function pushData()
+{
+    var inputText = document.getElementById("inputText").value;
+
+    for (i = 0; i < myArr.length; i++) {
+        myArr[i] = "inputText";
+    }
+
+}
+
+console.log(myArr);
